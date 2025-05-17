@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Divinité</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Dieux de Kramoss</h1>
+    <input type="text" id="searchInput" placeholder="Rechercher un dieu...">
+</header>
+
+<div class="item1" data-nom="Ericktus" data-name="vie" id="Ericktus">
+    <img class="img1" src="../Image kramoss/Ericktus.jpg" alt="dieu de la lumière">
+    <p>
+        <span class="nom"><strong>Ericktus</strong></span> <br>
+        <strong>Description :</strong> Un titan d’une centaine de mètres. Il prend l’apparence d’un chevalier entièrement couvert ou d’une lumière étincelante, les rares fois où il apparaît à ses fidèles.<br><br>
+        <strong>Serviteurs :</strong> Les 7 Archanges<br><br>
+        <strong>Valeurs :</strong> Justice, Humanité, Honneur<br><br>
+        <strong>Vénération :</strong> Les adeptes mènent une vie saine, limitant au maximum les excès, et suivent une vie bien ordonnée. Ils chassent l’hérésie et n’acceptent que la magie de feu et de lumière.<br><br>
+        <strong>Symboles :</strong> Croix chrétienne, eau bénite, bûcher, lys<br><br>
+        <strong>Histoire :</strong> L’un des dieux primordiaux. Il a façonné le monde au commencement, lui apportant chaleur et lumière, ce qui permit à la vie d’exister.<br><br>
+    </p>
+</div>
+
+<div class="item2" data-nom="Maria" data-name="Mort" id="Maria">
+    <img class="img2" src="../Image kramoss/Maria.jpg" alt="déesse de la mort">
+    <p>
+        <span><strong>Maria</strong>  </span> <br>
+        <strong>Description :</strong> Apparence d’une femme à la fleur de l’âge. La moitié de son visage est toujours cachée par une couronne ou un voile. Lorsqu’elle apparaît, l’obscurité envahit la pièce et le soleil est masqué par une éclipse.<br><br>
+        <strong>Serviteurs :</strong> Cavaliers de l’Apocalypse<br><br>
+        <strong>Valeurs :</strong> Liberté, ordre des choses, mort<br><br>
+        <strong>Vénération :</strong> Les fidèles sont libres de la vénérer comme bon leur semble, tant que cela reste sincère.<br><br>
+        <strong>Symboles :</strong> Deux cercles l’un dans l’autre (comme une éclipse), chrysanthème<br><br>
+        <strong>Histoire :</strong> Déesse primordiale apparue à la création du monde. Elle permit aux êtres de fonctionner de manière autonome, créa le cycle de la vie et l’équilibre du monde.<br><br>
+    </p>
+</div>
+
+<div class="item3" data-nom="Xenoverse" data-name="Espace" id="Xenoverse">
+    <img class="img3" src="../Image kramoss/Xenoverse.jpg" alt="déesse de l’espace">
+    <p>
+        <span><strong>Xenoverse</strong>  </span> <br>
+        <strong>Description :</strong> Présente dans tous les mondes, elle reste neutre face aux événements.<br><br>
+        <strong>Valeur :</strong> Les mondes<br><br>
+        <strong>Vénération :</strong> Bien qu’elle soit une déesse à part entière, elle est vénérée par une secte nommée « Les Affranchis ».<br><br>
+        <strong>Symboles :</strong> Rose noire, néant<br><br>
+        <strong>Histoire :</strong> Existant depuis la nuit des temps. Sa ressemblance avec la déesse de la mort laisse supposer un lien familial.<br><br>
+    </p>
+</div>
+
+<div class="item4" data-nom="Nevi'hana" data-name="sang pure" id="Nevi'hana">
+    <img class="img4" src="../Image kramoss/Nevi'hana.jpg" alt="déesse du sang">
+    <p>
+        <span><strong>Nevi'hana</strong>  </span> <br>
+        <strong>Description :</strong> Une elfe juvénile qui manipule une fleur sanguine. Malgré son manque de maturité, elle est bienveillante et aime se mêler aux mortels. Sa naïveté la rend manipulable, mais elle est aussi très rancunière : son amitié ou son animosité dure plusieurs générations.<br><br>
+        <strong>Valeurs :</strong> Sang, naissance, promesse, dette (non monétaire)<br><br>
+        <strong>Vénération :</strong> Les fidèles scellent leurs accords importants par un « pacte de sang », surnommé le pacte inviolable. Ils la considèrent comme la plus bienveillante des divinités du sang, lui offrent prières et nombreuses offrandes
+       </div>
+    <div class="item5" data-nom="Aphi" data-name="Renaissance" id="Aphi">
+            <img class="img5" src="../Image kramoss/Aphi.jpg" alt="déesse de la renaissance">
+            <p>
+                <span><strong>Aphi</strong>  </span> <br>
+                <strong>Description :</strong> Divinité à l’apparence fragile et pure, elle est connue pour sa vulnérabilité et comme gardienne de la pomme d’or, un fruit qui offrirait l’immortalité et la guérison.<br><br>
+                <strong>Valeur :</strong> Accouchement, guérison<br><br>
+                <strong>Vénération :</strong> Vénérée par un clan qui protège une zone de la forêt où, selon la légende, elle vivrait.<br><br>
+                <strong>Symbole :</strong> Pomme d’or<br><br>
+                <strong>Histoire :</strong> Enfant bénie de la vie et de la mort, dont le rôle est de garder le précieux trésor qu’est « la pomme d’or ». <br><br>
+            </p>
+        </div>
+        
+        <div class="item6" data-nom="Virgo" data-name="Détermination" id="Virgo">
+            <img class="img6" src="../Image kramoss/Virgo.jpg" alt="déesse de la détermination">
+            <p>
+                <span><strong>Virgo</strong>  </span> <br>
+                <strong>Description :</strong> Décrite comme une poupée avec quatre bras.<br><br>
+                <strong>Valeur :</strong> Persévérance, attente, magie<br><br>
+                <strong>Vénération :</strong> Les fidèles méprisent l’abandon et encouragent la spécialisation, qu’elle soit magique ou artisanale.<br><br>
+                <strong>Symbole :</strong> Poupée de bois ou de chiffon à quatre bras<br><br>
+                <strong>Histoire :</strong> Virgo est une poupée enchantée créée il y a longtemps par un mage nommé Sam. Cet adolescent usa un jour d’une magie inconnue pour insuffler la vie à sa création. Au fil des années, il devint obsédé par elle, s’isolant dans un lieu reculé durant des décennies. À 80 ans, il parvint à lui donner vie et une puissance magique extraordinaire. Virgo vécut avec son maître pendant les douze dernières années de sa vie. À sa mort, elle ressentit son premier sentiment : le chagrin. Elle se mit à étudier les ouvrages de son créateur afin de le ramener. Après des siècles d’apprentissage, elle tenta de récupérer son maître des mains de la Mort. Celle-ci lui offrit une chance : devenir une divinité. <br><br>
+            </p>
+        </div>
+        
+        <div class="item7" data-nom="Azurie" data-name="jeu" id="Azurie">
+            <img src="../Image kramoss/Azurie.jpg" alt="déesse du jeu">
+            <p>
+                <span><strong>Azurie</strong>  </span> <br>
+                <strong>Description :</strong> Change-forme reconnaissable à un œil dont la pupille est en forme d’étoile. Elle prend plaisir à se moquer et à faire participer les mortels à ses jeux et farces malgré eux.<br><br>
+                <strong>Valeur :</strong> Fourberie, pari, jeux<br><br>
+                <strong>Vénération :</strong> Les fidèles l’admirent et la craignent afin de se prémunir de ses jeux ou de lui demander son soutien contre un ennemi. Ils lui dédient leurs victoires lorsqu’ils obtiennent ce qu’ils désirent.<br><br>
+                <strong>Symbole :</strong> Étoile à quatre branches, joker, chat<br><br>
+                <strong>Histoire :</strong> Ancienne princesse, elle fut bannie de sa terre natale après avoir provoqué la mort de son frère, héritier du trône. Elle vagabonda, semant le trouble sur son passage. Un jour, elle découvrit les démons et leurs jeux malsains, qu’elle prit un malin plaisir à défier pour prouver sa supériorité. Elle finit par défier un dieu et prendre sa place, devenant l’idole de ceux qui œuvrent uniquement pour leur amusement et les adeptes du jeu. <br><br>
+            </p>
+        </div>
+        
+        <div class="item8" data-nom="Hisanagi" data-name="Guerre" id="Hisanagi">
+            <img src="../Image kramoss/Hisanagi.jpg" alt="dieu de la guerre">
+            <p>
+                <span><strong>Hisanagi</strong>  </span> <br>
+                <strong>Description :</strong> Homme au corps recouvert de blessures, il ne reste plus un centimètre de peau intacte. Il a de longs cheveux noirs et porte un sabre usé et sale. Il apparaît parfois lors des grandes batailles.<br><br>
+                <strong>Valeur :</strong> Guerre, bataille, gloire<br><br>
+                <strong>Vénération :</strong> Les fidèles appliquent des principes guerriers. Pour accéder à son monde, le fidèle doit mourir au combat. On lui offre du saké pour qu’il nous accorde la force de combattre.<br><br>
+                <strong>Symbole :</strong> Deux sabres croisés sur une épée, cerisier, saké<br><br>
+                <strong>Histoire :</strong> Ancien héros humain, il conquit les îles de fer et provoqua une grande invasion du continent. L’histoire raconte qu’à la bataille finale, alors que toute son armée fut exterminée, il se battit seul durant trois jours contre des milliers d’ennemis, le corps transpercé de centaines d’armes. La Mort elle-même dut venir le chercher.<br><br>
+            </p>
+        </div>
+        
+        <div class="item9" data-nom="Miserie" data-name="Poison" id="Miserie">
+            <img src="../Image kramoss/Miserie.jpg" alt="déesse du poison">
+            <p>
+                <span><strong>Miserie</strong>  </span> <br>
+                <strong>Description :</strong> « Mère des serpents », son physique est reptilien mais séduisant. Elle est reconnaissable à son regard pouvant, selon certaines légendes, pétrifier ou charmer ceux qui le croisent.<br><br>
+                <strong>Valeur :</strong> Mensonge, trahison, défiance<br><br>
+                <strong>Vénération :</strong> Vénérée principalement par les assassins, voleurs et personnalités chaotiques et mauvaises. Ses fidèles n’attendent rien d’elle, car ils apprécient la vérité qu’elle incarne : « Les dieux se fichent de vous. » Une philosophie qu’elle assume totalement.<br><br>
+                <strong>Symbole :</strong> Serpent autour d’une dague, animaux venimeux<br><br>
+                <strong>Histoire :</strong> Le passé de Miserie est obscur. Tout ce que l’on sait, c’est qu’elle fut jadis une mortelle exécutée dans une fosse à serpents. Mais elle ressuscita en tant que divinité.<br><br>
+            </p>
+        </div>
+        
+        <div class="item10" data-nom="Aurore" data-name="Justice" id="Aurore">
+            <img src="../Image kramoss/aurore.jpg" alt="déesse de la justice">
+            <p>
+                <span><strong>Aurore</strong>  </span> <br>
+                <strong>Description :</strong> Jeune fille angélique à la peau blanche comme le lait, elle porte sur elle les symboles de la lumière. Elle protège les plus faibles et incarne la justice. Elle est connue comme la défenseuse des orphelins.<br><br>
+                <strong>Valeur :</strong> Justice, peuple, démunis, enfants<br><br>
+                <strong>Vénération :</strong> Considérée comme une branche de l’Église de la Vie. Les fidèles qui se tournent vers elle cherchent à protéger le peuple et à purifier les nuisibles.<br><br>
+                <strong>Symbole :</strong> Symbole de la lumière, orné de lierre ou d’un bracelet de perles, orphelins, anges<br><br>
+                <strong>Histoire :</strong> Ancienne paladine de la Lumière, elle consacra sa vie et sa fortune aux plus démunis. Elle conserva sa virginité toute sa vie, bien qu’elle ait été mise à l’épreuve par des bandits qui violèrent sa sœur, écorchèrent son beau-frère et ses neveux. Elle ne céda pas à la haine et les livra à la justice d’Erictus. Lors d’une campagne militaire, elle se sacrifia pour protéger un orphelinat. Son corps s’éleva dans le ciel et elle réapparut sous forme d’ange.<br><br>
+            </p>
+        </div>
+        
+        <div class="item11" data-nom="Crepuscule" data-name="Equite" id="Crepuscule">
+            <img src="../Image kramoss/crepuscule.jpg" alt="déesse de la compassion">
+            <p>
+                <span><strong>Crepuscule</strong>  </span> <br>
+                <strong>Description</strong> : Jeune fille angélique à la peau blanche comme le lait, elle porte sur elle les symboles de la mort ; elle protège les opprimés et traite chaque race de la même manière, connue comme la défenseuse des peuples. <br><br>
+                <strong>Valeur</strong> : Équité, Population, Démunie, Mixité <br><br>
+                <strong>Vénération</strong> : Considérée comme une branche de l’Église de la mort, les fidèles qui se tournent vers elle se tournent vers l'acceptation des peuples et la protection des opprimés. <br><br>
+                <strong>Symbole</strong> : Symbole de la mort avec le cercle intérieur peint, les non-humains, anges. <br><br>
+                <strong>Histoire</strong> : Ancienne paladine de la lumière qui a abandonné son culte à cause de la cruauté de celle-ci envers les « hérésies », elle rejoint l'étendard de la mort afin de lutter pour l'acceptation des races. Elle sauva tant de vies que la mort lui offrit sa place divine. <br><br>
+            </p>
+        </div>
+        
+        <div class="item12" data-nom="Elsa Vanessa Mirai" data-name="festivité" id="Elsa Vanessa Mirai">
+            <img src="../Image kramoss/elsa vanessa mirai.jpg" alt="déesse de la festivité">
+            <p>
+                <span><strong>Elsa Vanessa Mirai</strong>  </span> <br>
+                <strong>Description</strong> : Narcissique et fêtarde mais surtout extrêmement charismatique et érudite sur les civilisations, elle est proche de ses fidèles, principalement ses descendants de la famille Mirai, qu'elle visite régulièrement. <br><br>
+                <strong>Valeur</strong> : Civilisation, Fêtes, Divertissement, Culture <br><br>
+                <strong>Vénération</strong> : Les fidèles la vénèrent à travers de grands banquets, festivités qui lui sont dédiées. La famille Mirai lui consacre un culte absolu. Même si elle n'influe pas sur le plan politique, la famille lui doit tout et exauce tous ses désirs, ravis de ses divines visites. <br><br>
+                <strong>Symbole</strong> : Cœur serti d'un cadenas (armoirie Mirai), chocolat, vin de raisin chantant, aigle. <br><br>
+                <strong>Histoire</strong> : Elsa Vanessa Mirai est une ancienne chef de famille qui, très jeune, œuvra à créer la plus grande fête. Cet objectif quelque peu immature nécessita une accumulation de connaissances démesurée pour que toutes les civilisations soient représentées dans les festivités. Cette fête prit une telle ampleur qu'elle mit fin à de nombreux conflits, car les peuples dont les soldats voulaient y participer. Cette fête dura 10 ans, et on dit même que des dieux y sont venus participer. Elle finit par disparaître à la fin de la fête et créa sa lignée noble qu'elle soutint pour qu'elle devienne l'une des plus grandes familles de Kramoss. <br><br>
+            </p>
+        </div>
+      
+        <div class="item13" data-nom="Lydia" data-name="Artisanat" id="Lydia">
+            <img src="../Image kramoss/lydia.jpg" alt="déesse de l'artisanat">
+            <p>
+                <span><strong>Lydia</strong>  </span> <br>
+                <strong>Description</strong> : Surnommée la « matronne de fer », elle est connue comme celle qui a forgé les armes épiques du monde. Elle est connue comme une femme qui fait passer son travail avant tout. <br><br>
+                <strong>Valeur</strong> : Travail du fer, Artisanat <br><br>
+                <strong>Vénération</strong> : Vénérée par les artisans, ils lui offrent leur plus belle œuvre en espérant qu'elle fasse prospérer leur atelier et favorise leurs talents. <br><br>
+                <strong>Symbole</strong> : Marteau sur enclume (dessin), forge, fer. <br><br>
+                <strong>Histoire</strong> : Une humaine fascinée par la forge à qui on a refusé ce noble travail parce qu'elle était une femme. Elle s'isola dans la montagne afin de parfaire son art. Elle forgea le corps de Martoho, qui finit par lui offrir une plus longue longévité, croyant voir la fin de sa progression, mais elle progresse encore. <br><br>
+            </p>
+        </div>
+        
+        <div class="item14" data-nom="Farfenlis" data-name="Destruction" id="Farfenlis">
+            <img src="../Image kramoss/Farfenlis.jpg" alt="dieu de la destruction">
+            <p>
+                <span><strong>Farfenlis</strong>  </span> <br>
+                <strong>Description</strong> : Cruel démon tyrannique, il est pourtant apprécié de certains car il garantit la séparation des mondes et est hostile à ce que les démons sortent du leur. <br><br>
+                <strong>Valeur</strong> : Équilibre, Ordre. <br><br>
+                <strong>Vénération</strong> : Vénéré par les chasseurs de démons, leurs offrandes sont les démons qu'ils renvoient dans leur monde. <br><br>
+                <strong>Symbole</strong> : Triangle dans un hexagone. <br><br>
+                <strong>Histoire</strong> : Démon supérieur, qui, après avoir perdu son amour (humaine), décida de fermer les portes du monde des démons et détruisit les démons qui essayaient de le quitter. <br><br>
+            </p>
+        </div>
+        
+        <div class="item15" data-nom="Camphie" data-name="Passion" id="Camphi">
+            <img src="../Image kramoss/camphi.jpg" alt="déesse de la passion">
+            <p>
+                <span><strong>Camphi</strong>  </span> <br>
+                <strong>Description</strong> : Une femme au corps couvert de plumes, avec des serres. <br><br>
+                <strong>Valeur</strong> : Amour, Famille, Sexualité. <br><br>
+                <strong>Serviteur</strong> : 7 péchés capitaux. <br><br>
+                <strong>Vénération</strong> : Les fidèles respectent toutes les formes d'amour, laissent libre cours à leurs émotions et n'ont pas de plus grand amour que leur déesse. <br><br>
+                <strong>Symbole</strong> : Plume rouge, fraise. <br><br>
+                <strong>Histoire</strong> : Ancienne Heluve et héroïne, elle fut emmenée dans le monde des démons et séduisit son propre père. À ses côtés, elle utilisa ses charmes pour recevoir de nombreux dons avec lesquels elle tua son père et aspira sa puissance. Lassée de son royaume en enfer, elle devint déesse afin de créer un monde où tous ses fidèles méritants pourraient la servir éternellement après leur mort. <br><br>
+            </p>
+        </div>
+        
+        <div class="item16" data-nom="Malicia et Yami" data-name="rêve" id="Malicia et Yami">
+            <img src="../Image kramoss/malicia et yami.jpg" alt="déesse du rêve">
+            <p>
+                <span><strong>Malicia et Yami</strong>  </span> <br>
+                <strong>Description</strong> : Une adolescente toujours accompagnée d'un démon blanc et tenant un livre sur lequel elle écrirait les rêves et cauchemars. <br><br>
+                <strong>Valeur</strong> : Sommeil, Rêverie, Imagination. <br><br>
+                <strong>Vénération</strong> : Les fidèles pratiquent des prières nocturnes dans lesquelles ils parlent de leurs rêves et de leurs cauchemars. Des écrits personnels lui sont offerts. <br><br>
+                <strong>Symbole</strong> : Une cascade qui sort d'un livre (symbole), sable, diamant, cygne, serpent. <br><br>
+                <strong>Histoire</strong> : Yami est un démon dévoreur d'âmes qui provoque des cauchemars de plus en plus violents afin de briser et récolter l'âme de sa cible. Un jour, il prit pour cible une Heluve nommée Malicia. Il provoqua des cauchemars de plus en plus violents, mais Malicia, loin d'être affaiblie par ceux-ci, eut une réelle fascination pour ces cauchemars qu'elle finit par noter pour pouvoir les relire et revivre. Plus les cauchemars s'intensifiaient, plus sa fascination augmentait. Yami, impuissant dans cette situation car incapable de prendre son âme, se soumit à elle. En découvrant l'auteur de ses « cadeaux nocturnes », Malicia s'unit à lui dans un amour divin. <br><br>
+            </p>
+        </div>
+        
+        <div class="item17" data-nom="Koven" data-name="Clairvoyance" id="Koven">
+            <img src="../Image kramoss/koven.jpg" alt="déesse de la clairvoyance">
+            <p>
+                <span><strong>Koven</strong>  </span> <br>
+                <strong>Description</strong> : Femme vêtue de rouge et accompagnée de corbeaux, elle est souvent symbole de mauvais présage, mais en réalité, elle sert le destin, que ce soit à l'avantage ou non de ceux qui la rencontrent. Elle ne s'exprime qu'en énigmes et prophéties. <br><br>
+                <strong>Valeur</strong> : Destin, Prophétie. <br><br>
+                <strong>Vénération</strong> : Très populaire dans les îles de fer, elle est vénérée à travers ses serviteurs, les « oracles », qui lui font des offrandes à travers un rituel pour qu'elle parle à travers eux. <br><br>
+                <strong>Symbole</strong> : Un œil et une larme (dessin), corbeau. <br><br>
+                <strong>Histoire</strong> : Sa provenance n'est pas connue, mais on pense qu'elle provient du monde des démons. <br><br>
+            </p>
+        </div>
+        
+        <div class="item18" data-nom="Lucarist" data-name="Savoir" id="Lucarist">
+            <img src="../Image kramoss/lucarist.jpg" alt="déesse du savoir">
+            <p>
+                <span><strong>Lucarist</strong>  </span> <br>
+                <strong>Description</strong> : Succube savante qui adore apprendre de nouvelles choses. Bien que démone, elle a un caractère gentil et bienveillant envers tous. Elle se nourrit de ses fidèles qui s'offrent à elle et la servent dans sa bibliothèque infinie. <br><br>
+                <strong>Valeur</strong> : Savoir, Apprentissage, Érudition. <br><br>
+                <strong>Vénération</strong> : Ses fidèles passent leur vie à rassembler et étudier tous les savoirs et les gardent jalousement dans des temples en son honneur, qui prennent la forme de bibliothèques et de bâtiments de recherche. <br><br>
+                <strong>Symbole</strong> : Livre avec ses 2 cornes (dessin). <br><br>
+                <strong>Histoire</strong> : Succube ayant passé des siècles à rassembler les savoirs pour aider les autres. <br><br>
+            </p>
+          </div>
+
+        
+     <div class="item19" data-nom="Mamonne" data-name="Or" id="Mamonne">
+            <img src="../Image kramoss/mamonne.jpg" alt="déesse de l'or">
+            <p>
+                <span><strong>Mamonne</strong>  </span> <br>
+                <strong>Description</strong> : Son physique ignoble n'est rien face à la laideur de son âme, fourbe, lâche, vile... seul l'or et le pouvoir pour humilier les faibles lui procurent du plaisir. <br><br>
+                <strong>Valeur</strong> : Or, Avarice, Radinerie, dette (argent) <br><br>
+                <strong>Vénération</strong> : Les fidèles favorisent leur gain personnel au détriment d'autrui mais en respectant les lois afin de jouir de l’impunité (loyal mauvais). <br><br>
+                <strong>Symbole</strong> : Aucun <br><br>
+                <strong>Histoire</strong> : Un gobelin plus intelligent et cruel que la moyenne, il a manipulé les masses pour devenir baron d’un comté. Un jour, il sacrifia ses habitants à un démon afin d’obtenir l’immortalité et de nombreux pouvoirs. <br><br>
+            </p>
+        </div>
+        <div class="item20" data-nom="Nurolox" data-name="sang souffrance" id="Nurolox">
+            <img src="../Image kramoss/nurolox.jpg" alt="dieu du sang">
+            <p>
+                <span><strong>Nurolox</strong>  </span> <br>
+                <strong>Description</strong> : Un être à l’apparence misérable, maigre, semblable à un cadavre. Il prête son pouvoir à tous ceux qui renoncent à d'autres magies et se vouent au sang. Il n’intervient pas et reste dans son coin, dans le monde des démons liés aux fidèles. <br><br>
+                <strong>Valeur</strong> : Sang, Magie de sang, Souffrance (endurée) <br><br>
+                <strong>Vénération</strong> : Les fidèles pratiquent des rituels de sang pour aller plus loin dans leur maîtrise ou obtenir des miracles, et vénèrent les autres entités du sang. <br><br>
+                <strong>Symbole</strong> : Aucun <br><br>
+                <strong>Histoire</strong> : Un être mystérieux, on ignore s’il s’agit d’un démon ou d’un autre être qui a utilisé le sang pour entrer dans le monde des démons. Ce qui est sûr, c’est qu’il s’est isolé et ne participe pas aux conflits de ceux-ci. <br><br>
+            </p>
+        </div>
+        <div class="item21" data-nom="Yamar" data-name="Feu" id="Yamar">
+            <img src="../Image kramoss/yamar.jpg" alt="dieu du feu">
+            <p>
+                <span><strong>Yamar</strong>  </span> <br>
+                <strong>Description</strong> : Élémentaire de feu, il apparaît dans les sources de feu existantes. <br><br>
+                <strong>Valeur</strong> : Feu, lieu aride, mariage unique <br><br>
+                <strong>Vénération</strong> : Les fidèles prient devant des flammes et font leurs offrandes en les immolant. Les Lipsans de feu sont considérés comme ses enfants directs et vénérés comme des sous-divinités. <br><br>
+                <strong>Symbole</strong> : Couronne à piques incandescente, les flammes. <br><br>
+                <strong>Histoire</strong> : Connu comme le père des élémentaires de feu, on ignore tout de ses origines. Pour ses fidèles, il est considéré comme le dieu primordial. <br><br>
+            </p>
+        </div>
+        <div class="item22" data-nom="Ono" data-name="Vent" id="Ono">
+            <img src="../Image kramoss/ono.jpg" alt="dieu du vent">
+            <p>
+                <span><strong>Ono</strong>  </span> <br>
+                <strong>Description</strong> : Un œil ailé dans le ciel. <br><br>
+                <strong>Valeur</strong> : Voyage, instrument à vent. <br><br>
+                <strong>Vénération</strong> : Pas de vénération particulière. <br><br>
+                <strong>Symbole</strong> : Cercle entouré de 6 plumes et au centre un caillou sur lequel on a dessiné. <br><br>
+                <strong>Histoire</strong> : Un cocon ailé est apparu un jour au sommet d'une montagne. Au bout d'un siècle, le cocon éclosa et donna naissance à Ono. <br><br>
+            </p>
+        </div>
+                
+       
+     <div class="item23" data-nom="Miwa" data-name="Eau" id="Miwa">
+            <img src="../Image kramoss/miwa.jpg" alt="déesse de l'eau">
+            <p>
+                <span><strong>Miwa</strong>  </span> <br>
+                <strong>Description :</strong> Attentionnée et intéressée par la vie des mortels, elle a tendance à leur apparaître en traversant des espaces d'eau.<br><br>
+                <strong>Valeurs :</strong> Paix, océan, affection, libertinage<br><br>
+                <strong>Vénération :</strong> Les fidèles l'aiment comme une mère protectrice et valorisent le pacifisme. Elle accepte tout type d’offrandes et écoute les prières faites devant une source d’eau.<br><br>
+                <strong>Symboles :</strong> Poisson, lac, rivière, crevettes (son plat préféré)<br><br>
+                <strong>Histoire :</strong> Ancienne fille de pêcheur, elle vénérait si fort l’océan que celui-ci l’adopta. Elle devint plus tard sa gardienne.<br><br>
+            </p>
+        </div>
+        
+        <div class="item24" data-nom="Semiramis" data-name="Murmures" id="Semiramis">
+            <img src="../Image kramoss/semiramis.jpg" alt="déesse des murmures">
+            <p>
+                <span><strong>Semiramis</strong>  </span> <br>
+                <strong>Description :</strong> Reine des océans, maîtresse des sirènes. Si vous entendez son chant, vous êtes perdu. Elle est vaniteuse, susceptible et sensible à la flatterie.<br><br>
+                <strong>Valeurs :</strong> Chant, océan, silence<br><br>
+                <strong>Vénération :</strong> Les fidèles se divisent en deux catégories : les marins/pêcheurs qui la craignent et l’honorent pour épargner leur navire, et ceux qui désirent entendre sa voix et rencontrer sa splendeur. Les premiers lui offrent des présents avant chaque départ en mer, les seconds respectent ses valeurs et espèrent lui offrir leur âme après la mort.<br><br>
+                <strong>Symboles :</strong> Ancre, perles, sirène<br><br>
+                <strong>Histoire :</strong> Ancienne sirène, elle conquit Miwa par son chant. Miwa voulut la garder pour toujours dans ses océans et lui permit de la rejoindre.<br><br>
+            </p>
+        </div>
+        
+        <div class="item25" data-nom="Alejandro" data-name="Arc-en-ciel" id="Alejandro">
+            <img src="../Image kramoss/Alejandro.jpg" alt="dieu de l'arc-en-ciel">
+            <p>
+                <span><strong>Alejandro</strong>  </span> <br>
+                <strong>Description :</strong> Oiseau dont le plumage arbore toutes les couleurs du monde. Il traverse le ciel en laissant derrière lui une aurore boréale. Fière et bienveillante créature.<br><br>
+                <strong>Valeurs :</strong> Ciel, architecture, couleurs<br><br>
+                <strong>Vénération :</strong> Ses fidèles érigent des autels en son honneur, où ils déposent différentes offrandes alimentaires.<br><br>
+                <strong>Symboles :</strong> Collier de plumes variées, arc-en-ciel, oiseau<br><br>
+                <strong>Histoire :</strong> Un oiseau né du ciel, qui parcourt le monde pour embellir les cieux et honorer les mortels par sa beauté.<br><br>
+            </p>
+        </div>
+        
+        <div class="item26" data-nom="Marthoho" data-name="Terre" id="Marthoho">
+            <img src="../Image kramoss/marthoho.jpg" alt="dieu de la terre">
+            <p>
+                <span><strong>Marthoho</strong>  </span> <br>
+                <strong>Description :</strong> Montagne vivante, son apparition provoque de violents séismes.<br><br>
+                <strong>Valeurs :</strong> Montagne, mine, métaux, ancêtres<br><br>
+                <strong>Vénération :</strong> Très apprécié des nains et des mineurs. Les fidèles évitent de creuser à certaines périodes de l’année pour respecter le sommeil de la montagne.<br><br>
+                <strong>Symboles :</strong> Roche gravée en forme de mâchoire, pierre précieuse au centre, minerai<br><br>
+                <strong>Histoire :</strong> Une montagne qui prit vie. Ancien destructeur, il trouva un équilibre mais reste un fléau naturel.<br><br>
+            </p>
+        </div>
+        
+        <div class="item27" data-nom="Fea" data-name="Foret" id="Fea">
+            <img src="../Image kramoss/fea.jpg" alt="déesse de la forêt">
+            <p>
+                <span><strong>Féa</strong>  </span> <br>
+                <strong>Description :</strong> Nymphe bienveillante envers les travailleurs de la terre et ceux qui vivent en harmonie avec la nature.<br><br>
+                <strong>Valeurs :</strong> Nature, agriculture, animaux<br><br>
+                <strong>Vénération :</strong> Les fidèles lui offrent de la nourriture pour qu’elle bénisse leurs récoltes et les protège des animaux sauvages.<br><br>
+                <strong>Symboles :</strong> Tresse avec fleur au centre, blé<br><br>
+                <strong>Histoire :</strong> Une Lipsan née de plante. On ignore si elle fut une héroïne car elle est issue d’une époque antérieure à la reconnaissance des héros.<br><br>
+            </p>
+        </div>
+        
+        <div class="item28" data-nom="Vanilla" data-name="Conquête" id="Vanilla">
+            <img src="../Image kramoss/vanilla.jpg" alt="déesse de la conquête">
+            <p>
+                <span><strong>Vanilla</strong>  </span> <br>
+                <strong>Description :</strong> Couverte d’or et de bijoux dans des habits princiers. Dominante, avare et ambitieuse. Elle contacte les hommes de pouvoir pour étendre son culte ou défendre ses intérêts.<br><br>
+                <strong>Valeurs :</strong> Domination, guerre, richesse<br><br>
+                <strong>Vénération :</strong> Les fidèles estiment que leurs désirs doivent être satisfaits par la force ou les intrigues. Ils offrent une part de leurs conquêtes à leur déesse, sous toutes les formes.<br><br>
+                <strong>Symboles :</strong> Pièce avec une dague, renard<br><br>
+                <strong>Histoire :</strong> Ancienne reine humaine, elle organisa avec son mari l’une des plus grandes exterminations raciales pour conquérir des terres riches en ressources.<br><br>
+            </p>
+        </div>
+        
+        <div class="item29" data-nom="Famira" data-name="Désert" id="Famira">
+            <img src="../Image kramoss/famira.jpg" alt="déesse du désert">
+            <p>
+                <span><strong>Famira <strong>  </span> <br>
+                <strong>Description :</strong> Femme à la peau écailleuse et au regard reptilien. Beauté sournoise, elle est connue pour sa sévérité, sa fiabilité et son attachement aux traditions.<br><br>
+                <strong>Valeurs :</strong> Désert, tradition, sagesse<br><br>
+                <strong>Vénération :</strong> Vénérée principalement par les nomades du désert. Leur foi repose sur des rituels transmis de génération en génération et sur le respect des anciens. Elle s’oppose à l’influence des 7 péchés.<br><br>
+                <strong>Symboles :</strong> Scorpion, pyramide, lézard<br><br>
+                <strong>Histoire :</strong> Première souveraine du désert, elle guida son peuple en fuite après une tentative d’éradication.<br><br>
+            </p>
+        </div>
+        
+        <div class="item30" data-nom="Arbre de sang" data-name="sang famille" id="Arbre de sang">
+            <img src="../Image kramoss/arbre de sang.jpg" alt="arbre de sang">
+            <p>
+                <span><strong>Arbre de sang</strong>  </span> <br>
+                <strong>Description :</strong> Arbre situé dans la vallée des ombres. Il peut apparaître dans d'autres mondes pour une durée allant d’un mois à vingt ans.<br><br>
+                <strong>Valeurs :</strong> Sang, lignée, famille<br><br>
+                <strong>Vénération :</strong> Les fidèles favorisent l’inceste et la pureté du sang. Ils respectent profondément leurs ancêtres et protègent leurs descendants. Renier un enfant est impensable. À la naissance, le cordon est conservé précieusement. Toutes les entités du sang sont vénérées.<br><br>
+                <strong>Symboles :</strong> Arbre rouge, peuplier<br><br>
+                <strong>Histoire :</strong> On ignore les origines de cet arbre. La légende raconte qu’il donne parfois naissance à des bébés hybrides de différentes espèces lors de ses apparitions.<br><br>
+            </p>
+        </div>
+        
+</body>
+</html>

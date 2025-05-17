@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=IM+Fell+English+SC&family=Lobster&family=Marck+Script&family=MedievalSharp&family=Nosifer&family=Noto+Sans+JP:wght@100..900&family=Sacramento&family=UnifrakturCook:wght@700&display=swap');
+
+
+*,::before ::after
+{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid rgb(0, 0, 0); /* Épaisseur, style, couleur */
+  border: 8px solid #bfa76f;              /* Doré classique */
+  border-radius: 12px;                    /* Coins légèrement arrondis */
+  box-shadow: 
+    0 0 0 4px #e0c88a,                    /* Double bord doré clair */
+    0 0 20px rgba(0, 0, 0, 0.4);          /* Ombre externe */
+  padding: 6px;
+}
+
+img{
+    height: 500px;
+    width: auto;
+    max-width: 40%; 
+    padding: 10px;
+   
+    border-radius: 50%;
+}
+p {
+    height: auto;
+    max-width: 50%;
+    margin-left: 5%;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
+    
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Sépare le titre et la barre */
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+
+header input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+span {
+  display: inline-block;
+  font-family: 'UnifrakturCook', cursive; /* ou autre font fantasy/gothique */
+  font-size: 1.6em;
+  color: #c0b7b7; /* rouge sang */
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #000;
+  background: linear-gradient(90deg, rgba(139,0,0,0.2), rgba(0,0,0,0));
+  padding: 0.2em 0.4em;
+  border-left: 3px solid #e8ebe4;
+  margin-right: 0.5em;
+    
+}
+.item1 {
+ background-image: url(/fond/lumiére.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+  color: #c1cd1b;
+  animation: backgroundAnimation 10s infinite alternate;
+}
+
+.item2 {
+  background-image: url(/fond/mort.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: rgb(179, 149, 149);
+  font-family: 'UnifrakturCook', cursive;
+}
+
+.item3 {
+  background-image: url(/fond//espace.jpg);
+  background-size: cover;
+  background-position: 50% 25%;
+  color: #73066e;
+  
+}
+
+.item4 {
+  background-image: url(/fond//sang1.png);
+  background-size: cover;
+  background-position: 50% 35%;
+  color: #ad3014;
+   
+}
+
+.item5 {
+  background-image: url(/fond//renaissance.jpg);
+  background-size: cover;
+  background-position: 50% 45%;
+  color: 	#556B2F;
+}
+
+.item6 {
+  background-image: url(/fond//determination.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  color: rgb(113, 113, 229);
+  font-family: 'MedievalSharp', cursive;
+}
+.item7 {
+  background-image: url(/fond//jeu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  color: rgb(107, 107, 216);
+  filter: brightness(80%);
+}
+.item8 {
+  background-image: url(/fond//guerre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+  color: #4e8181; 
+  
+}
+.item9 {
+  background-image: url(/fond//poison.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 10%;
+  color:	#228B22  ; 
+  
+}
+.item10 {
+  background-image: url(/fond//justice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  color:	#b8c13b  ; 
+  
+}
+
+.item11 {
+  background-image: url(/fond//equite.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  color:	#f47979  ; 
+}
+
+.item12 {
+  background-image: url(/fond//festivité.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color:		#FFFFF0 ; 
+   font-family: 'MedievalSharp', cursive;
+     
+
+}
+.item13 {
+  background-image: url(/fond//artisanat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  color:		#ffbc8c ; 
+}
+.item14 {
+  background-image: url(/fond//destruction.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 70%;
+  color:		#ff9090 ; 
+}
+.item15 {
+  background-image: url(/fond//passion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  color:		#fd3a3a ; 
+}
+
+.item16 {
+  background-image: url(/fond//reve.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  font-family: 'Marck Script', cursive;
+  color: rgb(79, 79, 170);
+}
+.item17 {
+  background-image: url(/fond//clairevoyance.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+  color: rgb(176, 36, 152);
+}
+
+.item18 {
+  background-image: url(/fond//savoir.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 70%;
+  color: rgb(141, 113, 136);
+}
+.item19 {
+  background-image: url(/fond//or.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: rgb(182, 216, 44);
+}
+.item20 {
+  background-image: url(/fond//sang2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  color: #aa1f00;
+  lighting-color: red;
+}
+.item21 {
+  background-image: url(/fond//feu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #feb115;
+  lighting-color: red;
+}
+
+
+.item22 {
+  background-image: url(/fond//vent.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 70%;
+  color: #b5bac0;
+}
+
+.item23 {
+  background-image: url(/fond//eau.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+  color: #006eff;
+  font-family: 'Sacramento', cursive;
+}
+
+.item24 {
+  background-image: url(/fond//murmure.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #006eff;
+  font-family: 'Sacramento', cursive;
+}
+.item25 {
+  background-image: url(/fond//rainbow.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+  color: #227ff1;
+  
+}
+
+.item26 {
+  background-image: url(/fond//terre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 70%;
+  color:#805a48;
+  font-family: 'MedievalSharp', cursive;
+}
+.item27 {
+  background-image: url(/fond//foret.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 70%;
+  color:#46f190;
+  font-family: 'MedievalSharp', cursive;
+}
+
+.item28 {
+  background-image: url(/fond//conquete.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 60%;
+  color: #d93b70;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+}
+.item29 {
+  background-image: url(/fond//desert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 30%;
+  color: #976905;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+}
+.item30 {
+  background-image: url(/fond//sang3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30% 50%;
+   color: #aa1f00;
+  lighting-color: red;
+}
+
+@keyframes backgroundAnimation {
+   0% {
+       background-position: 50% 60%;
+   }
+   100% {
+       background-position: 50% 70%;
+   }
+}
