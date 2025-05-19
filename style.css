@@ -82,7 +82,7 @@ span {
     
 }
 .item1 {
- background-image: url(/fond/lumiére.jpg);
+ background-image: url(./fond/lumiére.jpg);
   background-size: cover;
   background-position: 50% 60%;
   color: #c1cd1b;
@@ -90,7 +90,7 @@ span {
 }
 
 .item2 {
-  background-image: url(/fond/mort.jpg);
+  background-image: url(./fond/mort.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -99,7 +99,7 @@ span {
 }
 
 .item3 {
-  background-image: url(/fond//espace.jpg);
+  background-image: url(./fond//espace.jpg);
   background-size: cover;
   background-position: 50% 25%;
   color: #73066e;
@@ -107,7 +107,7 @@ span {
 }
 
 .item4 {
-  background-image: url(/fond//sang1.png);
+  background-image: url(./fond//sang1.png);
   background-size: cover;
   background-position: 50% 35%;
   color: #ad3014;
@@ -115,14 +115,14 @@ span {
 }
 
 .item5 {
-  background-image: url(/fond//renaissance.jpg);
+  background-image: url(./fond//renaissance.jpg);
   background-size: cover;
   background-position: 50% 45%;
   color: 	#556B2F;
 }
 
 .item6 {
-  background-image: url(/fond//determination.jpg);
+  background-image: url(./fond//determination.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 30%;
@@ -130,7 +130,7 @@ span {
   font-family: 'MedievalSharp', cursive;
 }
 .item7 {
-  background-image: url(/fond//jeu.jpg);
+  background-image: url(./fond//jeu.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 40%;
@@ -138,7 +138,7 @@ span {
   filter: brightness(80%);
 }
 .item8 {
-  background-image: url(/fond//guerre.jpg);
+  background-image: url(./fond//guerre.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 20%;
@@ -146,7 +146,7 @@ span {
   
 }
 .item9 {
-  background-image: url(/fond//poison.jpg);
+  background-image: url(./fond//poison.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 10%;
@@ -154,7 +154,7 @@ span {
   
 }
 .item10 {
-  background-image: url(/fond//justice.jpg);
+  background-image: url(./fond//justice.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 40%;
@@ -163,7 +163,7 @@ span {
 }
 
 .item11 {
-  background-image: url(/fond//equite.jpg);
+  background-image: url(./fond//equite.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 30%;
@@ -171,7 +171,7 @@ span {
 }
 
 .item12 {
-  background-image: url(/fond//festivité.jpg);
+  background-image: url(./fond//festivité.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -181,21 +181,21 @@ span {
 
 }
 .item13 {
-  background-image: url(/fond//artisanat.jpg);
+  background-image: url(./fond//artisanat.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 60%;
   color:		#ffbc8c ; 
 }
 .item14 {
-  background-image: url(/fond//destruction.jpg);
+  background-image: url(./fond//destruction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 70%;
   color:		#ff9090 ; 
 }
 .item15 {
-  background-image: url(/fond//passion.jpg);
+  background-image: url(./fond//passion.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 30%;
@@ -203,7 +203,7 @@ span {
 }
 
 .item16 {
-  background-image: url(/fond//reve.jpg);
+  background-image: url(./fond//reve.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 30%;
@@ -211,7 +211,7 @@ span {
   color: rgb(79, 79, 170);
 }
 .item17 {
-  background-image: url(/fond//clairevoyance.jpg);
+  background-image: url(./fond//clairevoyance.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 40%;
@@ -219,21 +219,21 @@ span {
 }
 
 .item18 {
-  background-image: url(/fond//savoir.jpg);
+  background-image: url(./fond//savoir.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 70%;
   color: rgb(141, 113, 136);
 }
 .item19 {
-  background-image: url(/fond//or.jpg);
+  background-image: url(./fond//or.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   color: rgb(182, 216, 44);
 }
 .item20 {
-  background-image: url(/fond//sang2.jpg);
+  background-image: url(./fond//sang2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 30%;
@@ -241,7 +241,7 @@ span {
   lighting-color: red;
 }
 .item21 {
-  background-image: url(/fond//feu.jpg);
+  background-image: url(./fond//feu.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -251,7 +251,7 @@ span {
 
 
 .item22 {
-  background-image: url(/fond//vent.jpg);
+  background-image: url(./fond//vent.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 70%;
@@ -259,7 +259,7 @@ span {
 }
 
 .item23 {
-  background-image: url(/fond//eau.jpg);
+  background-image: url(./fond//eau.jpg);
   background-size: cover;
   background-position: 50% 60%;
   color: #006eff;
@@ -267,14 +267,14 @@ span {
 }
 
 .item24 {
-  background-image: url(/fond//murmure.jpg);
+  background-image: url(./fond//murmure.jpg);
   background-size: cover;
   background-position: 50% 50%;
   color: #006eff;
   font-family: 'Sacramento', cursive;
 }
 .item25 {
-  background-image: url(/fond//rainbow.jpg);
+  background-image: url(./fond//rainbow.jpg);
   background-size: cover;
   background-position: 50% 30%;
   color: #227ff1;
@@ -282,7 +282,7 @@ span {
 }
 
 .item26 {
-  background-image: url(/fond//terre.jpg);
+  background-image: url(./fond//terre.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 70%;
@@ -290,7 +290,7 @@ span {
   font-family: 'MedievalSharp', cursive;
 }
 .item27 {
-  background-image: url(/fond//foret.jpg);
+  background-image: url(./fond//foret.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 70%;
@@ -299,7 +299,7 @@ span {
 }
 
 .item28 {
-  background-image: url(/fond//conquete.jpg);
+  background-image: url(./fond//conquete.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 60%;
@@ -308,7 +308,7 @@ span {
   font-style: italic;
 }
 .item29 {
-  background-image: url(/fond//desert.jpg);
+  background-image: url(./fond//desert.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 30%;
@@ -317,7 +317,7 @@ span {
   font-style: italic;
 }
 .item30 {
-  background-image: url(/fond//sang3.jpg);
+  background-image: url(./fond//sang3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 50%;
